@@ -4,7 +4,7 @@
 
 During the first three weeks of my time at Insight Data Science, I worked on a project to match snippets of poetry to sets of one or more images. This repository contains exploratory code for the project, as well as the production code that drives the associated application.  The live app can be found at www.poeml.us.
 
-In developing the idea for this data product, I was considering a person engaged in preparing, say, a photo-book, and seeking a snippet of poetry to overly or accompany a small set of pictures. While this project is really a 'test of concept', I believe it has marketable potential:  the photo-book business in the US is huge (on the order of two billion dollars a year), many people like to contextualize their photos with a bit of poetic text, and the process of finding the right 'snippet' can be hard.  This application promises to make the process easier.  
+In developing the idea for this data product, I was considering a person engaged in preparing, say, a photo-book, and seeking a snippet of poetry to overlay or accompany a small set of pictures. While this project is really a 'test of concept', I believe it has marketable potential:  the photo-book business in the US is huge (on the order of two billion dollars a year), many people like to contextualize their photos with a bit of poetic text, and the process of finding the right 'snippet' can be hard.  This application promises to make the process easier.  
 
 
 
@@ -36,7 +36,9 @@ The project involved several steps, principally the following:
 
 5. *Algorithmic validation:*  I validate the matching algorithm on a test set consisting of a small core of thematically conspicuous images and poems.  
 
+Notebooks with all this functionality are included in the "notebook" directory.  The notebooks have a numerical prefix indicating the order in which to run them if one wants to start at the beginning and proceed to the end.  On the other hand, I've also included my raw and cleansed data in the "data" directory, so it possible to skip around.  In particular, one can skip the scraping and databasing notebooks if all one wants to do is the exploratory data analysis.  
 
+The code that drives the app is in the "application" subfolder.  The guts of the app is in the Python script called "backend".
 
 
 
