@@ -14,7 +14,7 @@ In developing the idea for this data product, I was considering a person engaged
 * *application:*  contains the code that runs the website `poeml.us`.
 * *data:*  contains poems, quotes, Shakespearean sonnes, and some test images:  all things I used in developing this project.
 * *notebooks:*  contains a set of Python notebooks that I use to scrape, clean, explore, and validate.
-
+* *references:* a subsample of the literature I consulted in figuring out how to do this project.
 
 
 **Details:**
@@ -39,7 +39,6 @@ The project involved several steps, principally the following:
 Notebooks with all this functionality are included in the "notebook" directory.  The notebooks have a numerical prefix indicating the order in which to run them if one wants to start at the beginning and proceed to the end.  On the other hand, I've also included my raw and cleansed data in the "data" directory, so it possible to skip around.  In particular, one can skip the scraping and databasing notebooks if all one wants to do is the exploratory data analysis.  
 
 The code that drives the app is in the "application" subfolder.  The guts of the app is in the Python script called "backend".
-
 
 
 **Comments:**  In order to have a well-functioning recommender system, the poems should be stylistically "suited" to the task.  Really that requires some custom curating:  my taste is not yours, and the "matches" will be more satisfying if the underlying set of poems is palatable.  For this project, I'll end up focusing on modern, short poems and hope for the best, but this is a good example of a project for which at least some "human in the loop" could make a big difference.  
